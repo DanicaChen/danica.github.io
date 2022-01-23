@@ -1,1 +1,0 @@
-const e={key:"v-712f2b00",path:"/hello.html",title:"can't add less as dependency #826",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:3,title:"underfin commented on 18 Sep 2020 \u2022 edited",slug:"underfin-commented-on-18-sep-2020-\u2022-edited",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"hello.md"};export{e as data};
