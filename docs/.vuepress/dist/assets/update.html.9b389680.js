@@ -1,0 +1,1 @@
+import{o as e,c as t,a as o}from"./app.088e8416.js";import{_ as c}from"./plugin-vue_export-helper.21dcd24c.js";const r={},s=o("li",null,"2022-01-25 \u5927\u6982\u6574\u7406\u597D\u7F51\u7AD9\u7ED3\u6784",-1),a=[s];function _(n,l){return e(),t("ul",null,a)}var u=c(r,[["render",_]]);export{u as default};

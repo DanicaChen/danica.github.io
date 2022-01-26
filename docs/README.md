@@ -1,1 +1,3 @@
-# Hello VuePress
+# 生命不息 折腾不止
+
+### [本站更新记录](/update.md)

@@ -1,0 +1,1 @@
+const e={key:"v-d7e8818c",path:"/favorite/",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:3,title:"\u652F\u6491\u6211\u7684\u7CBE\u795E\u7CAE\u98DF",slug:"\u652F\u6491\u6211\u7684\u7CBE\u795E\u7CAE\u98DF",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"favorite/readme.md"};export{e as data};

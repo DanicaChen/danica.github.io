@@ -1,0 +1,1 @@
+const e={key:"v-1dfa9166",path:"/logs/time/2022/1/Week4.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Week4",slug:"week4",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"logs/time/2022/1/Week4.md"};export{e as data};
