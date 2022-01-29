@@ -42,6 +42,10 @@ module.exports = {
           }
         ],
       },
+      {
+        text: 'Pyhton',
+        link: '/python/',
+      },
       // 字符串 - 页面文件路径
       {
         text: '算法',

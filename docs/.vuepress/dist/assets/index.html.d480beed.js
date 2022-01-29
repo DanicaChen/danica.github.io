@@ -1,0 +1,1 @@
+const t={key:"v-63cd5dba",path:"/python/",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u7528python\u5206\u6790\u5173\u952E\u8BCD\u7684\u51FA\u73B0\u9891\u6B21",slug:"\u7528python\u5206\u6790\u5173\u952E\u8BCD\u7684\u51FA\u73B0\u9891\u6B21",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"python/index.md"};export{t as data};
