@@ -1,1 +1,0 @@
-const e={key:"v-4151d2a6",path:"/front-end/vue/note/axios.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Vue3\u4E2Daxios\u7684\u914D\u7F6E\u65B9\u6CD5",slug:"vue3\u4E2Daxios\u7684\u914D\u7F6E\u65B9\u6CD5",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"front-end/vue/note/axios.md"};export{e as data};

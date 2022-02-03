@@ -1,0 +1,1 @@
+import{o,c as r,a as e}from"./app.19cd60c8.js";import{_ as c}from"./plugin-vue_export-helper.21dcd24c.js";const t={},s=e("li",null,[e("a",{href:"./how-heroku-works"},"\u3010\u8BD1\u3011Heroku\u7684\u5DE5\u4F5C\u539F\u7406")],-1),a=[s];function n(_,l){return o(),r("ul",null,a)}var u=c(t,[["render",n]]);export{u as default};
