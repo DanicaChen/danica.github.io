@@ -3,3 +3,11 @@
 - [用python分析关键词的出现频次](./analysis)
 
 ### Django
+
+- [PHP入门 开发环境配置Part1](https://www.youtube.com/watch?v=_A6e5w2Q2As)
+- [用Django搭建博客|Part1-配置虚拟环境并安装Django](https://www.youtube.com/watch?v=p3PRlbGN2yM)
+- [用Django搭建博客|Part2-创建项目，应用和模型](https://www.youtube.com/watch?v=GLUNjl-zWKY)
+- [用Django搭建博客|Part3-创建复杂模型](https://www.youtube.com/watch?v=w-Zmkx_GuPo)
+- [用Django搭建博客|Part3.5-调度器，视图，模版是怎么工作的](https://www.youtube.com/watch?v=zS3dLQJO8Lg)
+- [用Django搭建博客|Part4-创建调度器，视图和模版](https://www.youtube.com/watch?v=kueJb8jdTzc)
+- [用Django搭建博客|Part5-模版继承](https://www.youtube.com/watch?v=_6fPvnRK_zU)
