@@ -2,7 +2,7 @@ module.exports = {
   // 站点配置
   lang: 'zh-CN',
   title: "Danica's note",
-  description: '浩瀚互联网中的小小自留地',
+  description: 'We should consider every day lost on which we have not danced at least once.',
 
   // 主题和它的配置
   theme: '@vuepress/theme-default',
@@ -11,67 +11,63 @@ module.exports = {
     logo: 'https://vuejs.org/images/logo.png',
     displayAllHeaders: true,
     sidebar: [
-      {
-        text: '时间账单',
-        link: '/logs/time/',
-        children: [
-          {
-            text: '2022',
-            collapsible: true,
-            children:[
-              {
-              text: '1月',
-              link:'/logs/time/2022/1/week4',
-              },
-            ],
-          }
-        ],
-      },
+      // {
+      //   text: '时间账单',
+      //   link: '/logs/time/',
+      //   children: [
+      //     {
+      //       text: '2022',
+      //       collapsible: true,
+      //       children:[
+      //         {
+      //         text: '1月',
+      //         link:'/logs/time/2022/1/week4',
+      //         },
+      //       ],
+      //     }
+      //   ],
+      // },
       {
         text: 'Vue',
        
         children: [
           {
-            text: '学习笔记',
+            text: '笔记',
             link: '/front-end/vue/note/',
             
-          },
-          {
-            text: '项目',
-            link: '/front-end/vue/project/',
           }
         ],
       },
       {
         text: 'Pyhton',
-        link: '/python/',
+        link: '/back-end/python/',
       },
-      // 字符串 - 页面文件路径
       {
-        text: '算法',
-        link: '/algorithm/',
+        text: '部署相关',
+        link: '/back-end/deploy/',
       },
     ],
     navbar: [
       // NavbarGroup
       {
         text: '前端笔记',
-        children: ['/front-end/vue/', '/group/bar.md'],
+        children: ['/front-end/vue/note'],
+      },
+      {
+        text: '后端笔记',
+        children: ['/back-end/deploy/', '/back-end/python/'],
       },
       // NavbarItem
       {
         text: '算法',
         link: '/algorithm/',
       },
-      {
-        text: '精神粮食',
-        link: '/favorite/',
-      },
+      
       // NavbarItem
-      {
-        text: 'B站',
-        link: 'https://space.bilibili.com/178326385',
-      },
+      // {
+      //   text: 'B站',
+      //   link: 'https://space.bilibili.com/178326385',
+      // },
     ],
   },
 }

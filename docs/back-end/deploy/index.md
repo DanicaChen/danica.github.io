@@ -1,0 +1,1 @@
+- [【译】Heroku的工作原理](./how-heroku-works)
