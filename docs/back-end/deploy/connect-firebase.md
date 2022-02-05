@@ -64,7 +64,6 @@ await updateDoc(newData, {
 });
 
 ```
-
 9.  删除文档
 ```
 import { doc, deleteDoc } from "firebase/firestore";
