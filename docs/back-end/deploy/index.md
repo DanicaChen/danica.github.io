@@ -1,3 +1,2 @@
 - [【译】Heroku的工作原理](./how-heroku-works)
 - [Vue中firebase的配置方法及数据的curd](./connect-firebase)
-- [从创建vue应用到部署至github pages](./how-to-deploy-vue-to-ghpage)

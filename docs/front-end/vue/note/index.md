@@ -7,3 +7,6 @@
 
 #### vue2
 - [组件注册](./vue2-component)
+
+#### 共通
+- [从创建vue应用到部署至github pages](./how-to-deploy-vue-to-ghpage)
