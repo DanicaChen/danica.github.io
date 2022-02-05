@@ -39,12 +39,37 @@ import { collection, getDocs } from "firebase/firestore";
 
 ```
 
-6. 查询文档
+6. 用`getDocs(collection(db, "集合名"));`查询集合`collection`
 ```  
 const querySnapshot = await getDocs(collection(db, "users"));  
 querySnapshot.forEach((doc) => { 
 	console.log(`${doc.id} => ${doc.data()}`);  
 });
+```
+7. 增加文档（不指定id）
+```
+// Add a new document with a generated id.
+const docRef = await addDoc(collection(db, "集合名"), {
+  name: "Tokyo",//示例字段：‘值’
+  country: "Japan"//示例字段：‘值’
+});
+console.log("Document written with ID: ", docRef.id);
+```
+8. 修改文档
+```
+const newData = doc(db, "查找领域", "领域值");
+
+await updateDoc(newData, {
+  fieldName:value,
+});
+
+```
+
+9.  删除文档
+```
+import { doc, deleteDoc } from "firebase/firestore";
+
+await deleteDoc(doc(db, "集合名", "文档名"));
 ```
 
 成功获取到数据
