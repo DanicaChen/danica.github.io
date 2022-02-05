@@ -1,1 +1,2 @@
 - [【译】Heroku的工作原理](./how-heroku-works)
+- [vue与firebase的连接方法](./connect-firebase)

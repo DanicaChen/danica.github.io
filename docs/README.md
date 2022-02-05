@@ -4,13 +4,19 @@
 - [vue中如何对时间进行格式化处理](./dateformate)
 - [关于不能把less安装为依赖（dependency）](./less-install)
 
-## Python 
-### 数据抓取
+## 部署相关
+#### google系
+- [vue与firebase的连接方法](./connect-firebase)
+#### 其他
+- [【译】Heroku的工作原理](./how-heroku-works)
 
+
+## Python 
+
+#### 数据抓取
 - [用python分析关键词的出现频次](./analysis)
 
-### Django
-
+#### Django
 - [PHP入门 开发环境配置Part1](https://www.youtube.com/watch?v=_A6e5w2Q2As)
 - [用Django搭建博客|Part1-配置虚拟环境并安装Django](https://www.youtube.com/watch?v=p3PRlbGN2yM)
 - [用Django搭建博客|Part2-创建项目，应用和模型](https://www.youtube.com/watch?v=GLUNjl-zWKY)
@@ -20,5 +26,3 @@
 - [用Django搭建博客|Part5-模版继承](https://www.youtube.com/watch?v=_6fPvnRK_zU)
 
 
-## 部署相关
-- [【译】Heroku的工作原理](./how-heroku-works)
