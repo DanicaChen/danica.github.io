@@ -2,8 +2,7 @@
 
 #### 参考连接
 [如何将 Vue 应用部署到 GitHub Pages](https://docs.leoku.top/blog/deploy-vue-app-to-github-pages.html)
-
-
+[持续集成：使用 GitHub Actions 来帮你的应用自动化部署到 GitHub Pages](https://docs.leoku.top/blog/ci-cd-with-github-actions-to-deploy-on-github-pages.html)
 #### 步骤
 
 1. 用vue官方提供的脚手架vue-cli来完成项目创建

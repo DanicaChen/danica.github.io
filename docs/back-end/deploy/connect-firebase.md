@@ -57,8 +57,7 @@ console.log("Document written with ID: ", docRef.id);
 ```
 8. 修改文档
 ```
-const newData = doc(db, "查找领域", "领域值");
-
+const newData = doc(db, "集合名", "文档id");
 await updateDoc(newData, {
   fieldName:value,
 });
