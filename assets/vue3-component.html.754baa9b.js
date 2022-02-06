@@ -1,0 +1,9 @@
+import{d as e}from"./app.e7dd713a.js";import{_ as n}from"./plugin-vue_export-helper.21dcd24c.js";const a={},s=e(`<h3 id="\u5168\u5C40\u6CE8\u518C" tabindex="-1"><a class="header-anchor" href="#\u5168\u5C40\u6CE8\u518C" aria-hidden="true">#</a> \u5168\u5C40\u6CE8\u518C</h3><ol><li>\u5728main.js\u5BFC\u5165\u9700\u8981\u88AB\u6CE8\u518C\u7684\u7EC4\u4EF6</li></ol><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>import Componentname from &#39;./path&#39;
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="2"><li>\u8C03\u7528<code>app.component()</code>\u65B9\u6CD5\u5168\u5C40\u6CE8\u518C\u7EC4\u4EF6</li></ol><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>Vue.component(&#39;my-component-name&#39;, { /* \u914D\u7F6E\u53C2\u6570 */ })
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p><code>Vue</code>\u4E3A\u5B9E\u4F8B</p><h3 id="\u5C40\u90E8\u6CE8\u518C" tabindex="-1"><a class="header-anchor" href="#\u5C40\u90E8\u6CE8\u518C" aria-hidden="true">#</a> \u5C40\u90E8\u6CE8\u518C</h3><p>\u901A\u8FC7component\u8282\u70B9\uFF0C\u4E3A\u5F53\u524D\u7684\u7EC4\u4EF6\u6CE8\u518C\u79C1\u6709\u5B50\u7EC4\u4EF6</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>import ComponentName from &#39;./path&#39;
+export default {
+	components:{
+		&#39;my-search&#39;:Search
+	}
+}
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div>`,9);function r(t,l){return s}var p=n(a,[["render",r]]);export{p as default};
