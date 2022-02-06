@@ -9,7 +9,7 @@ console.log(Quote.getRandomQuote()); -->
 - [Vue3中axios的配置方法](./front-end/vue/note/axios)
 - [vue中如何对时间进行格式化处理](./front-end/vue/note/dateformate)
 - [关于不能把less安装为依赖（dependency）](./front-end/vue/note/less-install)
-- [从创建vue应用到部署至github pages](./front-end/vue/note/how-to-deploy-vue-to-ghpage)
+- [vue应用，从创建到部署](./front-end/vue/note/how-to-deploy-vue-to-ghpage)
 
 
 ## 部署相关

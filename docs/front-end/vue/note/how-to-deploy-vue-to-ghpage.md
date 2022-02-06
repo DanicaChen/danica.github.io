@@ -49,25 +49,25 @@
     首先要明白[./dist](./../../../back-end/deploy/how-webpack-work.md)文件夹的由来
 
    - 3.1 在github创建新仓库
-    ![new repo](./../../../.vuepress/public/img/create-repo.jpg)
+    ![new repo](/img/create-repo.jpg)
    - 3.2 按实际情况选初始化仓库，我通常用的都是第二个，push本地已有数据到仓库
-    ![push repo](./../../../.vuepress/public/img/push-to-repo.jpg)
+    ![push repo](/img/push-to-repo.jpg)
 
    - 3.3 创建好以后，到settings/tokens，生成新token
-    ![new token](./../../../.vuepress/public/img/new-token.jpg)
+    ![new token](/img/new-token.jpg)
 
    - 3.4 勾选repo，授予对仓库的[完全访问权限](https://docs.github.com/cn/developers/apps/building-oauth-apps/scopes-for-oauth-apps)
-    ![scope](./../../../.vuepress/public/img/select-scope.jpg)
+    ![scope](/img/select-scope.jpg)
 
     - 3.4 创建完毕后复制密匙，回到仓库的settings/secrets/action界面，添加密匙
-    ![add secret](./../../../.vuepress/public/img/add-secret.jpg)
+    ![add secret](/img/add-secret.jpg)
     
     - 3.5 点击菜单的pages，新建`gh-pages`拿来放`./dist`
-    ![new branches](./../../../.vuepress/public/img/gh-pages.jpg)
+    ![new branches](/img/gh-pages.jpg)
 
 4. 配置github action
    - 4.1 点action，[创建工作流程](https://docs.github.com/cn/actions/using-workflows/workflow-syntax-for-github-actions)，对照工作流程的存放位置，在本地创建`.yml`文件
-    ![workflow](./../../../.vuepress/public/img/workflow-path.jpg)
+    ![workflow](/img/workflow-path.jpg)
 
     复制以下代码，修改最后一项`GITHUB_TOKEN`名称
     ```
@@ -122,9 +122,10 @@
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     ```
 5. 用git push来进行部署，可以在action里查看日志，部署地址既可以在deploy下找到
-![查看日志](./../../../.vuepress/public/img/deploy.jpg)
-，也可以在仓库首页的右侧的`Environments`找到。
-![部署地址](./../../../.vuepress/public/img/gh-page-path.jpg)
+    ![查看日志](/img/deploy.jpg)
+
+    也可以在仓库首页的右侧的`Environments`找到。
+    ![部署地址](/img/gh-page-path.jpg)
 
 
 
