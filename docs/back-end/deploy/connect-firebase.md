@@ -46,7 +46,7 @@ querySnapshot.forEach((doc) => {
 	console.log(`${doc.id} => ${doc.data()}`);  
 });
 ```
-7. 增加文档（不指定id）
+7. 增加文档（不指定id的情况下，firestore会自动添加）
 ```
 // Add a new document with a generated id.
 const docRef = await addDoc(collection(db, "集合名"), {

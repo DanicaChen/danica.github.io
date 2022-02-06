@@ -93,5 +93,5 @@ module.exports = {
 
 
  重启服务器，可以看到没有报错，声明的`data`也已经顺利接收到数据
- ![使用proxy代理后成功获取到数据](/img/vue-proxy.jpg)
+ ![使用proxy代理后成功获取到数据](/docs/.vuepress/public/img/vue-proxy.jpg)
  
